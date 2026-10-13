@@ -3,14 +3,24 @@
     padding: 0;
 }
 
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
 header{
- background-color: #87ceeb
+ background-color: #87ceeb;
+ padding: 0px 0px 30px;
 }
 
 main{
- background-color:white
+ background-color:white;
 }
 
 footer{
-    background-color: #87ceeb
+    background-color: #87ceeb;
+}
+
+h2{
+    text-align: center;
+    padding: 20px 0px 20px;
 }
