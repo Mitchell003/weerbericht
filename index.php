@@ -9,11 +9,10 @@
 </head>
 
 <body>
-    <? require_once("header.php")
-        ?>
+    <?php require_once __DIR__ . "/header.php"; ?>
     <main>
 
     </main>
-    <? require_once("footer.php")
-        ?>
+    <?php require_once __DIR__ . "/footer.php"; ?>
 </body>
+</html>

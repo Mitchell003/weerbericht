@@ -1,6 +1,3 @@
+<header>
 
-<body>
-    <header>
-
-    </header>
-</body>
+</header>
