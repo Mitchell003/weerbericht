@@ -9,7 +9,7 @@ body{
 
 header{
  background-color: #87ceeb;
- padding: 0px 0px 30px;
+ padding: 0px 0px 0px;
 }
 
 main{
@@ -31,4 +31,48 @@ h2{
 
 .datumvandaag{
     text-align: center;
+}
+
+.image1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.image1 > *{
+    margin: 0;
+}
+
+.image1 img{
+    width: 50px;
+    height: 50px;
+}
+
+.week-verwachting{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(88px, 1fr);
+    gap: 8px;
+    width: calc(100% - 32px);
+    max-width: 720px;
+    margin: 24px auto;
+    overflow-x: auto;
+}
+
+.verwachting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin: 0;
+    padding: 8px 4px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    white-space: nowrap;
+}
+
+.verwachting img{
+    width: 32px;
+    height: 32px;
 }
