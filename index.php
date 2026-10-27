@@ -12,7 +12,8 @@
 <body>
     <?php require_once __DIR__ . "/header.php"; ?>
     <main>
-
+        <h2>Vandaag</h2>
+        <p class="datumvandaag">13-10</p>
     </main>
     <?php require_once __DIR__ . "/footer.php"; ?>
 </body>
